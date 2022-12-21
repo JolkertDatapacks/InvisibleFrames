@@ -1,4 +1,4 @@
-tag @e[type=#invis_frames:item_frames, distance=..5, sort=nearest, limit=1] add invis_frame 
+tag @e[type=#invis_frames:item_frames, tag=!invis_frame, distance=..5, sort=nearest, limit=1] add invis_frame
 
 execute store result score @s invis_frames.converted.x run data get entity @e[type=#invis_frames:item_frames, tag=!invis_frame, distance=..5, sort=nearest, limit=1] Pos[0]
 execute store result score @s invis_frames.converted.y run data get entity @e[type=#invis_frames:item_frames, tag=!invis_frame, distance=..5, sort=nearest, limit=1] Pos[1]

@@ -1,4 +1,4 @@
 {
     "replace": false,
-    "values": ["jolkert:invis_frames/tick"]
+    "values": ["invis_frames:tick"]
 }
